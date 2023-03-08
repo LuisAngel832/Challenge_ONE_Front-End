@@ -1,7 +1,7 @@
 .cabecera{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem;
+    padding: .5rem 5rem;
 }
 
 .cabecera__container{
@@ -34,7 +34,7 @@
     transform: translateX(-25px);
 }
 
-.cabecera_logIn{
+.cabecera__logIn{
     background: transparent;
     padding: 0 3.5rem;
     border: 1px solid #2A7AE4;
