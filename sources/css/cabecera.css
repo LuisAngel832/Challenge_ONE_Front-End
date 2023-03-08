@@ -1,0 +1,43 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.cabecera__container{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__buscar{
+    box-sizing: border-box;
+    margin-left: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 20rem;
+    padding:10px;
+    padding-right:15px ;
+}
+
+.cabecera:focus{
+    border: none;
+}
+
+
+.cabecera__buscar[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search{
+    transform: translateX(-25px);
+}
+
+.cabecera_logIn{
+    background: transparent;
+    padding: 0 3.5rem;
+    border: 1px solid #2A7AE4;
+    font-weight: 100;
+    color: #2A7AE4;
+}
