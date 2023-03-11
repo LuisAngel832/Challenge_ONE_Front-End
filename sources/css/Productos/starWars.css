@@ -1,0 +1,66 @@
+.main{
+    margin-bottom: 4rem;
+}
+.starWars, .consolas, .diversos{
+    margin-top: 2rem;
+    padding: 0 3.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.starWars__cabecera, .consola__cabecera, .diversos__cabecera{
+    display: flex;
+    height: 38px;
+    padding: 0 4rem 0 27px;
+    justify-content: space-between;
+    align-content: center;
+    margin: 15px 0;
+}
+
+.starWars__titulo, .consola__titulo, .diversos__titulo{
+    color:#464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.starWars__ver-todo, .consola__ver-todo, .diversos__ver-todo{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #2A7AE4;
+
+}
+
+.starWars__container, .consola__container, .diversos__container{
+    display: flex;
+    justify-content: center;
+}
+
+.starWars__producto, .consola__producto, .diversos__producto{
+    margin-right: 10px;
+    min-width: 176px;
+    height: 256px;
+}
+
+.starWars__img, .consola__img, .diversos__img{
+    min-width:176px;
+    height: 174px;
+}
+
+.starWars__nombre, .consola__nombre, .diversos__nombre{
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: #464646;
+}
+
+.starWars__precio, .consola__precio, .diversos__precio{
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+
+.starWars__enlace, .consola__enlace, .diversos__enlace{
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
+    font-size: 16px;
+}
