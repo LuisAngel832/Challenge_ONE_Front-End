@@ -33,6 +33,7 @@
 .starWars__container, .consola__container, .diversos__container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .starWars__producto, .consola__producto, .diversos__producto{
@@ -63,4 +64,17 @@
     color: #2A7AE4;
     text-decoration: none;
     font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+    .starWars__img, .consola__img, .diversos__img{
+        min-width:166px;
+        height: 174px;
+    }
+
+    .starWars, .consolas, .diversos{
+        padding: 0;
+        height: 324px;
+        overflow: hidden;
+    }
 }

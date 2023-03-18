@@ -22,7 +22,7 @@
 }
 
 .cabecera:focus{
-    border: none;
+    outline: none;
 }
 
 
@@ -40,4 +40,19 @@
     border: 1px solid #2A7AE4;
     font-weight: 100;
     color: #2A7AE4;
+}
+
+
+@media screen and (max-width:768px) {
+    .cabecera{
+        padding: .5rem 2rem;
+    }
+
+    .cabecera__buscar{
+        width: 15rem;
+    }
+
+    .cabecera__img{
+        height: 40px;
+    }
 }
