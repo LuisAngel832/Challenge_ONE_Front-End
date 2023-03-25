@@ -104,6 +104,9 @@
 
     .starWars, .consolas, .diversos{
         padding: 0 0 0 .5rem;
+        padding: 0;
+        height: 300px;
+        overflow: hidden;
     }
 
     .starWars__producto, .consola__producto, .diversos__producto{

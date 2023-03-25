@@ -105,6 +105,20 @@ label{
 }
 
 
+@media screen and (max-width:768px) {
+    .rodapie__logo{
+        display: none;
+    }
+    .rodapie__logo-media768{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .rodapie__formualrio-titulo{
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width:360px) {
     .rodapie__container-padre{
         height: 600px;
@@ -137,6 +151,11 @@ label{
     .rodapie__logo{
         width: 180px;
     }
+
+    .SWmedia368, .CSmedia368, .Dmedia360{
+        display: none;
+    }
+
 
 }
 
