@@ -38,7 +38,7 @@
 
 .starWars__producto, .consola__producto, .diversos__producto{
     margin-right: 10px;
-    min-width: 176px;
+    min-width: 156px;
     height: 256px;
 }
 
@@ -68,7 +68,7 @@
 
 @media screen and (max-width:768px) {
     .starWars__img, .consola__img, .diversos__img{
-        min-width:166px;
+        width:116px;
         height: 174px;
     }
 
@@ -77,4 +77,45 @@
         height: 324px;
         overflow: hidden;
     }
+}
+
+
+
+
+@media screen and (max-width:360px) {
+    .main{
+        margin-bottom: 1rem;
+    }
+    .starWars__cabecera, .consola__cabecera, .diversos__cabecera{
+        margin: 0;
+        padding: 0 1.25rem 0 10px;
+    }
+    .starWars__titulo, .consola__titulo, .diversos__titulo{
+        font-size: 22px;
+    }
+
+    .starWars__ver-todo, .consola__ver-todo, .diversos__ver-todo{
+    font-size: 14px;
+    }
+
+    .starWars__img, .consola__img, .diversos__img{
+        min-width:156px;
+    }
+
+    .starWars, .consolas, .diversos{
+        padding: 0 0 0 .5rem;
+    }
+
+    .starWars__producto, .consola__producto, .diversos__producto{
+        width: 156px;
+        margin-bottom: 1rem;
+    }
+    
+    .starWars__container, .consola__container, .diversos__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+
 }

@@ -20,10 +20,14 @@
 }
 
 .rodapie__logo{
-    display: flex;
-    width: 176px;
+    display: block;
+    width: 25%;
+    max-width: 200px;
     height: 50px;
-    align-items: start;
+}
+
+.rodapie__logo-media768{
+    display: none;
 }
 
 .rodapie__informacion-item{
@@ -67,8 +71,7 @@ label{
 .rodapie__formulario-input{
     border: none;
     font-size: 16px;
-    max-width: 400px;
-    min-width: 170px;
+    width: 200%;
     margin-bottom: 10px;
     height: 56px;
     background:  #fff;
@@ -99,6 +102,42 @@ label{
     align-items: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+@media screen and (max-width:360px) {
+    .rodapie__container-padre{
+        height: 600px;
+    }
+    .rodapie__container{
+        flex-direction: column;
+    }
+    .rodapie__logo{
+        margin: auto;
+    }
+
+    .rodapie__informacion-lista{
+        text-align: center;
+    }
+
+    .rodapie__formulario{
+        padding: 0 .5rem;
+    }
+    .rodapie__formulario-input{
+        width: 700%;
+    }
+
+    .rodapie__formulario-boton{
+        font-size: 14px;
+        width: 116px;
+        height: 40px;
+        border: none;
+    }
+
+    .rodapie__logo{
+        width: 180px;
+    }
+
 }
 
 

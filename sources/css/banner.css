@@ -39,3 +39,20 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width:360px) {
+    .banner__contenedor{
+        padding: 0 1rem;
+        height: 192px;
+    }
+    .banner__titulo{
+        font-size: 22px;
+        margin-bottom: 0;
+        line-height: 40px;
+    }
+
+    .banner__texto{
+        font-size: 14px;
+        margin-bottom: .5rem;
+    }
+}

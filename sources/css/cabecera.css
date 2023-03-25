@@ -4,6 +4,10 @@
     padding: .5rem 5rem;
 }
 
+.search__movile{
+    display: none;
+}
+
 .cabecera__container{
     display: flex;
     align-items: center;
@@ -36,7 +40,8 @@
 
 .cabecera__logIn{
     background: transparent;
-    padding: 0 3.5rem;
+    height: 50px;
+    width: 124px;
     border: 1px solid #2A7AE4;
     font-weight: 100;
     color: #2A7AE4;
@@ -49,10 +54,42 @@
     }
 
     .cabecera__buscar{
-        width: 15rem;
+        display: block;
+        max-width: 160px;
     }
 
     .cabecera__img{
+        height: 40px;
+        display: block;
+        max-width:80px;
+    }
+}
+
+@media  screen and (max-width:360px) {
+    .search__movile{
+        display: block;
+    }
+    .cabecera__buscar{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 1rem;
+    }
+
+    .cabecera__img{
+        width: 100px;
+        height: 28px;
+    }
+
+    .cabecera__logIn{
+        width: 133px;
         height: 40px;
     }
 }
