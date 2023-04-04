@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: .5rem 5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .search__movile{
@@ -39,6 +40,10 @@
 }
 
 .cabecera__logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background: transparent;
     height: 50px;
     width: 124px;
@@ -55,13 +60,13 @@
 
     .cabecera__buscar{
         display: block;
-        max-width: 160px;
+        max-width: 180px;
     }
 
     .cabecera__img{
         height: 40px;
         display: block;
-        max-width:80px;
+        max-width:100px;
     }
 }
 

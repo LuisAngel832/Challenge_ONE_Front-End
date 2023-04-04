@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+.logIn{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    background-color:  whitesmoke;
+}
+
+.logIn__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.13px;
+}
+
+.logIn__correo, .logIn__cotrasena{
+    width: 430px;
+    height: 64px;
+    border: none; 
+    padding-left: 20px;
+    font-size: 16px;   
+    margin-bottom: 40px;
+}
+
+.logIn__enviar{
+    width: 430px;
+    height: 62px;
+    background: #2A7AE4;
+    border :none;
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .logIn__correo, .logIn__cotrasena{
+        width: 275px;
+        height: 41px;
+        margin-bottom:30px ;
+    }
+    .logIn__enviar{
+        width: 109px;
+        height: 41px;
+    }
+}
+
+@media screen and (max-width:368px) {
+    .logIn__correo, .logIn__cotrasena{
+        width: 100%;
+        min-width: 100px;
+        height: 41px;
+        margin-bottom:30px ;
+    }
+    .logIn__enviar{
+        width: 109px;
+        height: 41px;
+    }
+}
+
